@@ -8,7 +8,7 @@ export const initialState = {
 };
 
 export const  reducer=(state,action) => {
-   // console.log(action)
+    console.log(action)
     switch(action.type){
         case 'ADD_TO_BASKET' :
         return {
@@ -17,7 +17,15 @@ export const  reducer=(state,action) => {
         };
         
         case 'REMOVE_FROM_BASKET' :
-        return {state};
+        let newBasket =[...state.basket];
+        const index =newBasket.findIndex((basketItem) => basketItem.id === action.id);
+        console.warn(index);
+        if(index >= 0){
+            newBasket.splice(index,1);
+        }
+
+        return { ...state,basket:newBasket    
+            };
         
         default:
         return state;
