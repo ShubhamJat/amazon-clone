@@ -6,7 +6,7 @@ import { useStateValue } from "./StateProvider";
 import intialState from "./reducer";
 function Header() {
   const [{basket}, dispatch] = useStateValue();
-    console.log(basket);
+    //console.log(basket);
 
      
     return (
