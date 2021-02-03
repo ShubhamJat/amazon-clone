@@ -1,5 +1,3 @@
-import { StateProvider } from "./StateProvider";
-import React, { createContext, useContext, useReducer } from "react";
 
 
 export const initialState = {
@@ -8,7 +6,7 @@ export const initialState = {
 };
 
 export const  reducer=(state,action) => {
-    console.log(action)
+   // console.log(action)
     switch(action.type){
         case 'ADD_TO_BASKET' :
         return {
@@ -19,7 +17,7 @@ export const  reducer=(state,action) => {
         case 'REMOVE_FROM_BASKET' :
         let newBasket =[...state.basket];
         const index =newBasket.findIndex((basketItem) => basketItem.id === action.id);
-        console.warn(index);
+       // console.warn(index);
         if(index >= 0){
             newBasket.splice(index,1);
         }
