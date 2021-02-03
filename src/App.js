@@ -6,18 +6,17 @@ import './App.css';
 import './Header.css'
 import './Home.css'
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Checkout from "./Checkout";
 
 function App() {
-  const intialState ={
-    basket: [],
-}
+ 
   return (
     <Router>
     <div className="app">
       <Switch>
         <Route path="/checkout">
           <Header />
-          <h1>Checkout</h1>
+          <Checkout />
         </Route>
         <Route path="/login">
           <h1>Login Page</h1>

@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { useStateValue } from "./StateProvider";
-import intialState from "./reducer";
 function Header() {
   const [{basket}, dispatch] = useStateValue();
     //console.log(basket);
