@@ -13,6 +13,7 @@ function Checkout() {
             alt="checkout image"
 
         />
+        <div>
         {basket?.length === 0 ? (
             <div>
                 <h2>Your Shopping Basket is empty!!</h2>
@@ -37,8 +38,16 @@ function Checkout() {
                 )})}
             </div>   
         )}
+        </div>
+        {basket.length >0 && (
+            <div className ="checkout_right">
+                <h2>Subtotal</h2>
+            </div>
+        )}
 
         </div>
+        
+        
     );
 }
 

@@ -10,14 +10,14 @@ function Home() {
         
 
            <div className="home__row">
-            <Product id="12213" title= "Jatt first product1" price={150}          rating={5}   image="https://images-na.ssl-images-amazon.com/images/I/61ZxLykowfL._SL1100_.jpg" />
-             <Product id="4" title= "Jatt first product2" price={150}          rating={5}   image="https://images-na.ssl-images-amazon.com/images/I/61ZxLykowfL._SL1100_.jpg" />
+            <Product id="12213" title= "Jatt first product1" price={150}          rating={5}   image="Handbag.png" />
+             <Product id="4" title= "Jatt first product2" price={150}          rating={5}   image="Shoe.png" />
            </div>
 
  <div className="home__row">
-             <Product id="122143" title= "Jatt first product3" price={150}          rating={5}   image="https://images-na.ssl-images-amazon.com/images/I/61ZxLykowfL._SL1100_.jpg" />
-             <Product id="1221456" title= "Jatt first product4" price={150}          rating={5}   image="https://images-na.ssl-images-amazon.com/images/I/61ZxLykowfL._SL1100_.jpg" />
-             <Product id="122156" title= "Jatt first product5" price={150}          rating={5}   image="https://images-na.ssl-images-amazon.com/images/I/61ZxLykowfL._SL1100_.jpg" />
+             <Product id="122143" title= "Jatt first product3" price={150}          rating={5}   image="Shirt.png" />
+             <Product id="1221456" title= "Jatt first product4" price={150}          rating={5}   image="Cap.png" />
+             <Product id="122156" title= "Jatt first product5" price={150}          rating={5}   image="Slipper.png" />
 
            </div>
             <div className="home__row">
