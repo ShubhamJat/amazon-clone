@@ -1,0 +1,72 @@
+
+
+.login_logo{
+    width:100px;
+    object-fit :contain;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+
+.login{
+    background-color:white;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.login_containers{
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    border: 1px solid lightgray;
+}
+
+.login_containers >h1 {
+    font-weight:500;
+    margin-bottom:20px;
+}
+.login_containers >form>h5 {
+    
+    margin-bottom:5px;
+}
+.login_containers >form>input {
+    height:25px;
+    margin-bottom:10px;
+    background-color:white;
+    width :98%;
+}
+
+.login_containers >p {
+    /* font-weight:500; */
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:12px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.singIn{
+    background-color:#fbd36e;
+    background: #f0c14b; 
+    width :100%;
+    border-radius: 3px;
+    border-color: #D5D9D9;
+    border: 0;
+    cursor: pointer;
+    
+    top: 0;
+    line-height: 19px;
+    outline: 0;
+    overflow: visible;
+    z-index: 20;
+    /* background: #ffd814; */
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: transparent;
+    margin-top: 10px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}

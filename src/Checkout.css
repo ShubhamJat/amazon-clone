@@ -1,12 +1,37 @@
 .checkout{
-    display :flex;
-    flex-direction: column;
+     display :flex;  
+    flex-direction :row;
     padding :20px;
-    background-color :white;
-    heigth :max-content;
+    /* background-color :white; */
+height: max-content;
+justify-content: space-between;
 }
-.checkout_add{
-    width :100;
+.checkout_ad{
+    width :100%;
     margin-bottom:10px;
 }
-
+.basket_itm{
+    display :flex;
+  
+}
+.checkout__right{
+    padding :20px;
+    box-sizing: border-box;
+position: relative;
+    margin-bottom: 20px;
+    width: 28%;
+    overflow: auto;
+    height: fit-content;
+    background-color :white;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.checkout_left{
+    padding :20px;
+    width: 68%;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    overflow: auto;
+    background-color :white;
+}

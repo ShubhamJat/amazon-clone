@@ -1,6 +1,5 @@
 .CheckoutProduct{
     display :flex;
-
 }
 
 .CheckoutProduct_image{
@@ -12,17 +11,30 @@
 .ckout_info{
 padding-left:20px;
 }
+
 .CheckoutProduct__rating{
     display :flex;
 }
+
 .CKoUT__title{
     font-size:17px;
     font-weight:700;
 }
+
 .ckout_info> button{
-    background: #f0c14b;
+    background: #f7bb25; 
+    border-radius: 3px;
+    border-color: #D5D9D9;
+    border: 0;
+    cursor: pointer;
+    top: 0;
+    line-height: 19px;
+    outline: 0;
+    overflow: visible;
+    z-index: 20;
+    /* background: #ffd814; */
     border: 1px solid;
-    margin-top :10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color : #111;
+    margin-top: 10px;
+    border-color: transparent;
+    margin-top: 10px;
 }

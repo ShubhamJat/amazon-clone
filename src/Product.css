@@ -30,13 +30,26 @@
     width : 100%;
     max-height:200px;
     object-fit:contain;
-    margin-bottom:15px;
-    margin-top:-10px;
+       margin-bottom: 5px;
+    margin-top: -40px;
 }
 .product >button {
-    background-color: #f0c14b;
-    border : 1px solid;
-    border-color: #a88734 #9c7e31 #846a29;
+    background: #f7bb25;
+   border-radius: 3px;
+    border-color: #D5D9D9;
+    border: 0;
+    cursor: pointer;
+ 
+    top: 0;
+    line-height: 19px;
+    outline: 0;
+    overflow: visible;
+    z-index: 20;
+    /* background: #ffd814; */
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: transparent;
+    margin-top: 10px;
 }
 .product__price{
     margin-top:5px;

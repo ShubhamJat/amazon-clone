@@ -1,0 +1,50 @@
+.subtotal{
+    display: flex;
+    flex-direction :column;
+    padding: 5px
+}
+
+.subtotal_c{
+    padding-top: 5px;
+    
+    padding-bottom: 5px;
+     
+}
+.btn{
+       border-radius: 3px;
+    border-color: #D5D9D9;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    line-height: 24px;
+    outline: 0;
+    overflow: visible;
+    z-index: 20;
+    background: #f7bb25;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: transparent;
+}
+
+.msg{
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+        color: #067D62;
+            margin-bottom: 0;
+    text-align: left;
+    
+}
+.checkbox_bx{
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+     margin-bottom: 0;
+    text-align: left;
+    
+}
+.checkbox{
+    height: 10px;
+}

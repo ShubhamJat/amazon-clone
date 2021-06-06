@@ -4,8 +4,9 @@ import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { useStateValue } from "./StateProvider";
 function Header() {
-  const [{basket}] = useStateValue();
-    //console.log(basket);
+  const [{basket,user}] = useStateValue();
+//   var a=user.email.split("@");
+//     console.log(a[0]);
 
      
     return (
@@ -22,8 +23,12 @@ function Header() {
             <div className="header__nav">
             <Link to="/login" className="header__link">
             <div className="header__option">
-                <span className="header_OptionLinkOne">Hello Jat</span>
+                <span className="header_OptionLinkOne">Hello</span>
+                {user != null ?
+                <span className="header_OptionLinkTwo">{(user.email.split("@"))[0]}</span>
+                :
                 <span className="header_OptionLinkTwo">Sign In</span>
+                }
             </div>
             </Link>
 
